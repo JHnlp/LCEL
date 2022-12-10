@@ -1,3 +1,7 @@
+### Pretrained Models
+
+The Pretrained Models for LCEL are provided by HuggingFace and could be downloaded as follows:
+
 PubMedBERT is available at: https://huggingface.co/microsoft/BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext
 
 CovidBERT is available at: https://huggingface.co/gsarti/covidbert-nli
