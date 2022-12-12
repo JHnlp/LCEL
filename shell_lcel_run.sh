@@ -2,7 +2,7 @@
 
 CUDA_VISIBLE_DEVICES=0 python litcovid_main.py \
   --data_dir=./data \
-  --output_dir=./output/_multiclass_jnl_ext.training_augmentation.biobert_large.asl_0_1_005 \
+  --output_dir=./output/_multiclass_jnl_ext.training_augmentation.pubmedbert.asl_0_1_005 \
   --model_wrapper_name=biobert_large \
   --tensorboard_comment=jnl_ext.training_augmentation.biobert_large.asl_0_1_005 \
   --tokenizer_name=./model/Journal_Extension/BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext \
@@ -11,7 +11,7 @@ CUDA_VISIBLE_DEVICES=0 python litcovid_main.py \
   --train_file=./data/new_BC7-LitCovid-Train-Data-Augmentation.csv \
   --dev_file=./data/new_BC7-LitCovid-Dev.csv \
   --test_file=./data/new_BC7-LitCovid-Test.csv \
-  --log_file=./_log_litcovid_jnl_ext.training_augmentation.biobert_large.asl_0_1_005.txt \
+  --log_file=./_log_litcovid_jnl_ext.training_augmentation.pubmedbert.asl_0_1_005.txt \
   --task_name=litcovid \
   --do_train \
   --eval_all_checkpoints \
