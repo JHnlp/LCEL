@@ -3,8 +3,8 @@
 CUDA_VISIBLE_DEVICES=0 python litcovid_main.py \
   --data_dir=./data \
   --output_dir=./output/_multiclass_jnl_ext.training_augmentation.pubmedbert.asl_0_1_005 \
-  --model_wrapper_name=biobert_large \
-  --tensorboard_comment=jnl_ext.training_augmentation.biobert_large.asl_0_1_005 \
+  --model_wrapper_name=pubmedbert \
+  --tensorboard_comment=jnl_ext.training_augmentation.pubmedbert.asl_0_1_005 \
   --tokenizer_name=./model/Journal_Extension/BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext \
   --model_name_or_path=./model/Journal_Extension/BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext/pytorch_model.bin \
   --config_name=./model/Journal_Extension/BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext/config_asl_0_1_005.json \
